@@ -1,7 +1,7 @@
 # Bike Share Demand Prediction
 *Predicting demand with the Capital Bike Share dataset from [Kaggle](https://www.kaggle.com/competitions/bike-sharing-demand/overview)*
 
-The objective was to predict demand for shared bikes in Washington, D.C., given 2 years of data. The dataset was artificially split so that the selection available to create the model consists of hourly data from the 1st to 19th days of the month, with the remaining data (from the 20th until the end of the month for all months) used for testing (which is done automatically by Kaggle upon upload).
+The objective was to predict demand for shared bikes in Washington, D.C., given 2 years of data. Data (and key) are provided by Kaggle and available at the link above. The dataset was artificially split so that the selection available to create the model consists of hourly data from the 1st to 19th days of the month, with the remaining data (from the 20th until the end of the month for all months) used for testing (which is done automatically by Kaggle upon upload).
 
 I've only included the models with the best result obtained via Kaggle, one linear regression in **linear_regression.ipynb** (RMSLE: 0.9677) and one random forest in **random_forest.ipynb** (RMSLE: 0.54805). For context, the best score publicly available on Kaggle was 0.33756.
 
